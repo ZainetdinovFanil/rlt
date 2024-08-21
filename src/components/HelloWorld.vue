@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <p>Count: {{ counterStore.count }}</p>
     <button @click="counterStore.increment">Increment</button>
   </div>
@@ -13,11 +12,9 @@ import { useCounterStore } from '@/store/counter';
 export default defineComponent({
   name: 'HelloWorld',
   setup() {
-    const msg = ref('Hello, Vue 3 with TypeScript!');
     const counterStore = useCounterStore();
 
     return {
-      msg,
       counterStore,
     };
   },
