@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "pinia": "^2.2.2",
+    "sass": "^1.77.8",
+    "sass-loader": "^10.5.2",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0"
   },
